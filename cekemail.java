@@ -34,7 +34,7 @@ public class cekemail {
                 } else {
                     hasil4 = false;
                 }
-                if (Email.contains(f) && Email.indexOf(f) > Email.indexOf(a)) {
+                if (Email.contains(f) && Email.indexOf(f) > Email.indexOf(a)) { // cek apakah email terdapat ".." pada saat menulis domain
                     hasil5 = false;
                 } else {
                     hasil5 = true;
